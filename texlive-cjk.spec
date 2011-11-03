@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/chinese/CJK
+# catalog-date 2009-09-27 09:50:48 +0200
+# catalog-license gpl
+# catalog-version 4.8.2
 Name:		texlive-cjk
 Version:	4.8.2
 Release:	1
@@ -431,6 +437,7 @@ scripts, - Russian and - Vietnamese.
 %doc %{_texmfdistdir}/source/latex/cjk/utils/subfonts/uni2sfd.pl
 %doc %{_texmfdistdir}/source/latex/cjk/utils/subfonts/vertical.pe
 %doc %{_texmfdistdir}/source/latex/cjk/utils/subfonts/vertref.pe
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -441,3 +448,5 @@ scripts, - Russian and - Vietnamese.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
