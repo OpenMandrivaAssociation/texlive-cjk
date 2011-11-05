@@ -16,7 +16,8 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjk.doc.tar.xz
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjk.source.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
-Requires(post):	texlive-tlpkg
+Requires(pre):	texlive-tlpkg
+Requires(post):	texlive-kpathsea
 Requires:	texlive-arphic
 Requires:	texlive-cns
 Requires:	texlive-garuda-c90
