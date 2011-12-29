@@ -25,9 +25,6 @@ Requires:	texlive-norasi-c90
 Requires:	texlive-thailatex
 Requires:	texlive-uhc
 Requires:	texlive-wadalab
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 CJK is a macro package for LaTeX, providing simultaneous
@@ -39,20 +36,12 @@ simultaneous, easy-to-use support to a bunch of other scripts
 in addition to the above: - Cyrillic, - Greek, - Latin-based
 scripts, - Russian and - Vietnamese.
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -438,7 +427,6 @@ scripts, - Russian and - Vietnamese.
 %doc %{_texmfdistdir}/source/latex/cjk/utils/subfonts/uni2sfd.pl
 %doc %{_texmfdistdir}/source/latex/cjk/utils/subfonts/vertical.pe
 %doc %{_texmfdistdir}/source/latex/cjk/utils/subfonts/vertref.pe
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -449,5 +437,3 @@ scripts, - Russian and - Vietnamese.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
