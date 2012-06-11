@@ -1,12 +1,12 @@
-# revision 15878
+# revision 26296
 # category Package
 # catalog-ctan /language/chinese/CJK
-# catalog-date 2009-09-27 09:50:48 +0200
+# catalog-date 2012-05-09 20:27:35 +0200
 # catalog-license gpl
-# catalog-version 4.8.2
+# catalog-version 4.8.3
 Name:		texlive-cjk
-Version:	4.8.2
-Release:	2
+Version:	4.8.3
+Release:	1
 Summary:	CJK language support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/chinese/CJK
@@ -236,8 +236,6 @@ scripts, - Russian and - Vietnamese.
 %{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/ko-Hang.cpx
 %{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/ko-Hang2.cpx
 %{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/ko-Hani.cpx
-%{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/xUTF8.chr
-%{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/xUTF8.enc
 %{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/zh-Hans.cpx
 %{_texmfdistdir}/tex/latex/cjk/texinput/UTF8/zh-Hant.cpx
 %{_texmfdistdir}/tex/latex/cjk/texinput/extended.chr
@@ -258,9 +256,6 @@ scripts, - Russian and - Vietnamese.
 %{_texmfdistdir}/tex/latex/cjk/texinput/thai/c90gar.fd
 %{_texmfdistdir}/tex/latex/cjk/texinput/thai/c90nrsr.fd
 %{_texmfdistdir}/tex/latex/cjk/texinput/thai/thaicjk.ldf
-%{_texmfdistdir}/tex/latex/cjk/texinput/xCJK.sty
-%{_texmfdistdir}/tex/latex/cjk/texinput/xpmC.chr
-%{_texmfdistdir}/tex/latex/cjk/texinput/xpmC.enc
 %{_texmfdistdir}/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 %doc %{_texmfdistdir}/doc/latex/cjk/ChangeLog
 %doc %{_texmfdistdir}/doc/latex/cjk/MANIFEST
@@ -320,7 +315,6 @@ scripts, - Russian and - Vietnamese.
 %doc %{_texmfdistdir}/doc/latex/cjk/doc/ruby.txt
 %doc %{_texmfdistdir}/doc/latex/cjk/doc/thaifont.txt
 %doc %{_texmfdistdir}/doc/latex/cjk/doc/vertical.txt
-%doc %{_texmfdistdir}/doc/latex/cjk/doc/xCJK.txt
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/Big5.tex
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/Big5vert.tex
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/CEF_test.tex
@@ -362,11 +356,10 @@ scripts, - Russian and - Vietnamese.
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/pdf/pytest.pdf
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/pdf/rubytest.pdf
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/pdf/thai.pdf
-%doc %{_texmfdistdir}/doc/latex/cjk/examples/pdf/xCJK.pdf
+%doc %{_texmfdistdir}/doc/latex/cjk/examples/pdf/thai_utf8.pdf
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/py_test.tex
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/rubytest.tex
 %doc %{_texmfdistdir}/doc/latex/cjk/examples/thai.tex
-%doc %{_texmfdistdir}/doc/latex/cjk/examples/xCJK.tex
 %doc %{_texmfdistdir}/doc/latex/cjk/texlive/bin-cjkutils.pl
 %doc %{_texmfdistdir}/doc/latex/cjk/texlive/c90.pl
 %doc %{_texmfdistdir}/doc/latex/cjk/texlive/cjk-build.pl
