@@ -1,4 +1,4 @@
 sources:
-  "cjk.doc.tar.xz:"	e136f67838b23748b773a4d829f67a7209ab3f1e
-  "cjk.source.tar.xz:"	c6bbd66b546d0c67b7be406d7e2249de41aa3bdf
-  "cjk.tar.xz:"	2e46cc9baea6f6655be6ad345be20fc8a2f18701
+  cjk.doc.tar.xz: e136f67838b23748b773a4d829f67a7209ab3f1e
+  cjk.source.tar.xz: c6bbd66b546d0c67b7be406d7e2249de41aa3bdf
+  cjk.tar.xz: 2e46cc9baea6f6655be6ad345be20fc8a2f18701
