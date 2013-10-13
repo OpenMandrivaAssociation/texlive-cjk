@@ -1,4 +1,4 @@
-# revision 26296
+# revision 30576
 # category Package
 # catalog-ctan /language/chinese/CJK
 # catalog-date 2012-05-09 20:27:35 +0200
@@ -6,7 +6,7 @@
 # catalog-version 4.8.3
 Name:		texlive-cjk
 Version:	4.8.3
-Release:	1
+Release:	2
 Summary:	CJK language support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/chinese/CJK
@@ -22,7 +22,6 @@ Requires:	texlive-arphic
 Requires:	texlive-cns
 Requires:	texlive-garuda-c90
 Requires:	texlive-norasi-c90
-Requires:	texlive-thailatex
 Requires:	texlive-uhc
 Requires:	texlive-wadalab
 
