@@ -6,7 +6,7 @@
 # catalog-version 4.8.3
 Name:		texlive-cjk
 Version:	4.8.3
-Release:	6
+Release:	7
 Summary:	CJK language support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/chinese/CJK
