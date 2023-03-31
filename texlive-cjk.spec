@@ -1,6 +1,6 @@
 Name:		texlive-cjk
 Version:	60865
-Release:	1
+Release:	2
 Summary:	CJK language support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/chinese/CJK
