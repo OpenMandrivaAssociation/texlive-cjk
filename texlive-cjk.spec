@@ -3,7 +3,7 @@ Version:	60865
 Release:	2
 Summary:	CJK language support
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/chinese/CJK
+URL:		https://www.ctan.org/tex-archive/language/chinese/CJK
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjk.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjk.doc.r%{version}.tar.xz
